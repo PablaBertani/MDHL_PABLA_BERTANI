@@ -1,63 +1,62 @@
-*{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*encabezado*/
 
-.banner-content{
-    background:url(/assets/img/design1_image1.jpg);opacity: 0.9 ;
-    background-position: 50% 25% ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    height: 350px;
-    width: 100%;
-    max-width:100% ;
-    
+.banner-content {
+  background: url(/assets/img/design1_image1.jpg);
+  opacity: 0.8;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 350px;
+  width: 100%;
+  max-width: 100%;
+  z-index: 0;
 }
 
-h1{
-    display: flex;
-    font-size: 3rem;
-    font-style: oblique;
-    color:rgb(0, 0, 0);
-    opacity: 1;
-    padding-left: 10px;
+h1 {
+  z-index: 1;
+  display: flex;
+  font-size: 4rem;
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+  font-family: "Kalam", cursive;
 }
 
-.box-title{
-    text-align: center;
-    padding-top:0.5% ;
-    padding-bottom: 0.5%;
-    position: relative;
-    
+.box-title {
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  position: relative;
 }
 
-h2{
-    background-color:rgb(0, 0, 0);
-    color: rgb(254, 254, 254);
-    min-height: 6vh;
-    padding-top: 5px;
-    padding-bottom: 5px;
+h2 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(254, 254, 254);
+  min-height: 6vh;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.logo{
-    position: absolute ;
-    right: 15%;
-    bottom: -80%;
-    left: 75% ;
-    z-index:3;
+.logo {
+  position: absolute;
+  right: 15%;
+  bottom: -80%;
+  left: 75%;
+  z-index: 3;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    
+img {
+  width: 150px;
+  height: 150px;
 }
-
 
 /*barra de navegación
 
@@ -80,57 +79,59 @@ background-color: blue;
 
 */
 
-.conteiner-sidebar{
-    display: flex;
-    min-height: 100vh;
-    position: relative;
+.conteiner-sidebar {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
 }
 
-.sidebar{
-    flex: 1 1 0;
-    max-width: 300px;
-    padding: 2rem 1rem;
-    
+.sidebar {
+  flex: 1 1 0;
+  max-width: 300px;
+  padding: 2rem 1rem;
 }
 
-.sidebar .options a{
-    display: block;
-    padding: 1rem;
-    text-decoration: underline;
-    font-size: 1em;
+.sidebar .options a {
+  display: block;
+  padding: 1rem;
+  text-decoration: underline;
+  font-size: 1em;
 }
 
-nav a{
-    color:blue;
+nav a {
+  color: blue;
 }
 
-a:hover{
-    color:black ;
-    text-decoration: none;
+a:hover {
+  color: black;
+  text-decoration: none;
 }
 
-a[href="#"]{
-    color: black;
-   
+a[href="#"] {
+  color: black;
 }
 
-
-.text-content{
-    position: absolute;
-    margin-left: 20%;
-    top: 26em;
-    z-index: 2;
-    border-radius: 1rem;
-    display: inline;
-
+.text-content {
+  position: absolute;
+  margin-left: 20%;
+  top: 26em;
+  display: inline;
 }
 
-h3{
-    margin: 1rem;
+h3 {
+  margin: 1rem;
 }
 
-p{
-    padding-left: 1.5rem;
-    text-indent: 15px;
-    padding-right: 1rem;
+p {
+  padding-left: 1.5rem;
+  text-indent: 15px;
+  padding-right: 1rem;
+}
+
+.text-contact {
+  position: absolute;
+  margin-left: 20%;
+  top: 28em;
+  display: inline;
+  line-height: 30px;
 }
