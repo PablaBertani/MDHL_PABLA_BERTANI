@@ -106,16 +106,23 @@ nav a{
 
 a:hover{
     color:black ;
+    text-decoration: none;
+}
+
+a[href="#"]{
+    color: black;
+   
 }
 
 
-.text4{
+.text-content{
     position: absolute;
     margin-left: 20%;
     top: 26em;
     z-index: 2;
     border-radius: 1rem;
-    
+    display: inline;
+
 }
 
 h3{
@@ -124,4 +131,6 @@ h3{
 
 p{
     padding-left: 1.5rem;
+    text-indent: 15px;
+    padding-right: 1rem;
 }
