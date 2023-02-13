@@ -58,26 +58,7 @@ img {
   height: 150px;
 }
 
-/*barra de navegación
-
-.conteiner-sidebar{
-    position: relative;
-    height: 15em;
-    margin: auto;
-    max-width: 25em;
-    border: 0.2em solid red;
-}
-
-nav{
-    display: flex;
-    flex-direction: column;
-position: absolute;
-right: 100%;
-padding: 1em;
-background-color: blue;
-}
-
-*/
+/*barra de navegacion*/
 
 .conteiner-sidebar {
   display: flex;
@@ -110,6 +91,8 @@ a:hover {
 a[href="#"] {
   color: black;
 }
+
+/*textos*/
 
 .text-content {
   position: absolute;
