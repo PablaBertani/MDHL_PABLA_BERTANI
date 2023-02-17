@@ -314,9 +314,11 @@ form input[type="text"],[type="number"],[type="date"]{
 
 .p_chekbox{
   padding-top:1em;
+  padding-left: 3em;
   text-align: left;
   font-weight: bold;
   display:inline-block;
+
 }
 
 form input[type="checkbox"] + label{
@@ -342,7 +344,7 @@ border-bottom:2px solid #fbf716;
 
 
 .btn{
-border: 2px solid rgb(48, 2, 2);;
+border: 2px solid rgb(48, 2, 2);
 padding: 0.5em;
 padding-inline:3em ;
 background-color: #fff316; 
@@ -355,3 +357,20 @@ border: 2em;
 margin-left: 40%;
 } 
 
+/*maps*/
+
+iframe{
+  border-radius: 1rem;
+  margin: 1rem;
+  border: 2px solid rgb(48, 2, 2);
+}
+
+.th_school{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.school{
+  font-size: 1.3em;
+  
+}
