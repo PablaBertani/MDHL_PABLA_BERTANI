@@ -1,0 +1,357 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*encabezado*/
+header {
+  min-height: 50vh;
+  background-image: url(/assets/img/design1_image2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  left: 100%;
+  top: 120%;
+  transform: translate(-100%, -100%);
+  width: 13vw;
+}
+
+h1 {
+  flex-grow: 1;
+  font-size: 6vw;
+  font-family: "Kalam", cursive;
+  font-style: oblique;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+}
+
+/*logo*/
+
+.div_h2 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: black;
+  color: beige;
+  font-size: 1.3vw;
+}
+
+/*barra de navegacion*/
+
+.conteiner-sidebar {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.sidebar .options a {
+  display: flex;
+  padding: 1rem;
+}
+
+:root {
+  --link-1: #fbf716;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 2px 1px rgb(48, 2, 2);
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+a {
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  box-shadow: inset 0 0 0 0 var(--link-1);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: var(--link-1);
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.966);
+  box-shadow: inset 14rem 0 0 0 var(--link-1);
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+/*textos*/
+.main-conteiner {
+  display: flex;
+  align-items: first baseline;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.text-conteiner {
+  padding-left: 5em;
+}
+
+.text {
+  line-height: 1.5;
+  font-size: 1.3em;
+}
+
+p {
+  padding-left: 1.5rem;
+  text-indent: 15px;
+  padding-right: 1rem;
+}
+
+section p {
+  display: flex;
+  padding-left: 0.5rem;
+  text-indent: 15px;
+  align-content: flex-start;
+}
+
+.about-conteiner {
+  position: absolute;
+  margin-top: 3em;
+  margin-left: 20em;
+  padding-right: 1em;
+}
+.about-text {
+  position: relative;
+  line-height: 1.5;
+}
+
+.contact {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+}
+
+.contact:hover {
+  margin-left: 0.2em;
+  box-shadow: inset 20rem 0 0 0 var(--link-1);
+}
+
+/*listas*/
+
+.lists {
+  position: absolute;
+  margin-top: 2.5;
+  margin-left: 20em;
+  padding-right: 1em;
+}
+
+.list_title {
+  position: relative;
+}
+
+pre {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  word-spacing: 0.25em;
+  padding-left: 8em;
+}
+
+.p_rules {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-left: 10em;
+  line-height: 1;
+}
+
+dl {
+  position: relative;
+  word-spacing: 0.25em;
+  line-height: 1.5;
+}
+
+dt {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+dd {
+  text-indent: 1em;
+}
+
+ol,
+ul {
+  list-style-position: inside;
+}
+
+.all_play {
+  list-style-type: circle;
+}
+
+/*tablas*/
+
+.table_info {
+  position: absolute;
+  margin-top: 2.5;
+  margin-left: 20em;
+  padding-right: 1em;
+}
+
+.table_title {
+  position: relative;
+  text-align: center;
+}
+
+.game_title {
+  text-align: center;
+  margin-left: 6em;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 2.1rem;
+  word-spacing: 0.25em;
+}
+
+.game_subtitle {
+  text-indent: 2em;
+  font-size: 1.6rem;
+  word-spacing: 0.25em;
+}
+
+caption {
+  text-indent: 2.5em;
+  text-align: left;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  word-spacing: 0.25em;
+  margin-bottom: 1em;
+}
+
+.table_conteiner,
+.table_add_info {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+table {
+  text-align: center;
+  width: 70vw;
+}
+
+th {
+  font-size: 1.2rem;
+}
+
+td {
+  line-height: 2;
+}
+
+.table_add_info {
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 1.2rem;
+}
+
+/*Formulario*/
+.form_container {
+  position: absolute;
+  margin-top: 2.5;
+  margin-left: 20em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.form_title{
+  text-align: center;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 2.1rem;
+  word-spacing: 0.25em;
+}
+
+legend{
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  word-spacing: 0.25em;
+  padding-bottom: 0.3em;
+}
+
+fieldset{
+  padding-left: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+/* input:focus {
+  background : rgba(241, 249, 81, 0.692);
+
+} */
+
+form label{	
+	display:inline-block;
+  padding-top: 1.2em;
+}
+
+form input[type="text"],[type="number"],[type="date"]{
+	width:auto;
+  border: none;
+  border-bottom:2px solid #fbf716;
+  padding-left: 3em;
+  padding-right: 10em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  display:inline-block;
+	/* display:inline-block; */
+}
+
+.p_chekbox{
+  padding-top:1em;
+  text-align: left;
+  font-weight: bold;
+  display:inline-block;
+}
+
+form input[type="checkbox"] + label{
+  display:inline-block;
+  padding-left: 2em;
+  
+}
+
+form textarea{
+width:auto;
+padding-left: 5em;  
+margin-top: 2em;
+border: none;
+border-bottom:2px solid #fbf716;
+}
+
+.txt{
+  display: inline-block;
+  padding-left: 6em;
+  font-weight: 800;
+  
+}
+
+
+.btn{
+border: 2px solid rgb(48, 2, 2);;
+padding: 0.5em;
+padding-inline:3em ;
+background-color: #fff316; 
+color: #fcecec; 
+text-decoration: none; 
+text-transform: uppercase;
+font-weight: bold;
+font-size: 1.5rem;
+border: 2em;
+margin-left: 40%;
+} 
+
